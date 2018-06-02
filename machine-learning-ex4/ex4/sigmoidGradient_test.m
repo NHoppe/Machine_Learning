@@ -1,0 +1,1 @@
+sigmoidGradient([[-1 -2 -3] ; magic(3)])
