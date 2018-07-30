@@ -20,11 +20,8 @@ S = zeros(n);
 %       number of examples).
 %
 
-
-
-
-
-
+sigma = (1/m)*(X'*X); % Covariance matrix
+[U, S, V] = svd(sigma); % eigenvectors
 
 % =========================================================================
 
